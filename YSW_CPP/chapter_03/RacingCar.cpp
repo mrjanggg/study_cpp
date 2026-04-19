@@ -9,9 +9,9 @@ using namespace std;
 
 struct Car
 {
-    char gamerID[ID_LEN];       //소유자 ID
-    int fuelGauge;              //연료량
-    int curSpeed;               //현재속도
+    char gamerID[ID_LEN];       // 소유자 ID
+    int fuelGauge;              // 연료량
+    int curSpeed;               // 현재속도
 };
 
 void ShowCarState(const Car &car)
